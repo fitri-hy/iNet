@@ -1,0 +1,20 @@
+{
+  "name": "intent-net",
+  "version": "0.1.0",
+  "description": "Goal-Oriented Communication Runtime",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "ts-node examples/client.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "@types/ws": "^8.18.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
